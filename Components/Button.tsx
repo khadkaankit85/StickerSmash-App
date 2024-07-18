@@ -49,7 +49,6 @@ const Button = ({ buttonLabel, Theme, onPressFunction }: ButtonProps) => {
     <View style={style.buttonContainer}>
       <Pressable
         onPress={() => {
-          alert("Button Pressed");
           onPressFunction();
         }}
         style={[

@@ -9,7 +9,7 @@ const CircleButton = ({ onPressFunction }: CircleButtonProps) => {
   return (
     <View style={styles.circleButtonContainer}>
       <Pressable onPress={onPressFunction} style={styles.circleButton}>
-        <MaterialIcons name="add" size={32} color="white" />
+        <MaterialIcons name="add" size={32} color="black" />
       </Pressable>
     </View>
   );
